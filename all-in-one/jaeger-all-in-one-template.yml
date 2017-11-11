@@ -115,7 +115,7 @@ items:
       port: 6832
       protocol: UDP
       targetPort: 6832
-    clusterIP: None
+    type: LoadBalancer
     selector:
       jaeger-infra: jaeger-pod
 - apiVersion: v1
